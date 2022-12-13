@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main-page {
+    position: absolute;
+    width: 100%;
+    height: 541.67px;
+    left: 0;
+    top: 0;
+    background: #E0F6F8;
+    border-radius: 0px 0px 166.667px 0px;
+}
+
+
+.logo {
+    display: flex;
+    /* position: absolute;
+    top: 20px;
+    left: 25px;
+    width: 70px; */
+}
+
+.logo img {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    left: 0;
+    top: 0;
+}
+
+.logo p {
+    position: relative;
+    height: 30px;
+    left: -25px;
+    top: 15px;
+    font-family: 'PT Mono';
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    line-height: 28px;
+    color: #000000;
+}
+
+.nav-bar {
+    display: flex;
+    /* width: 100%; */
+}
+
+.nav-bar ul {
+    display: flex;
+    float: left;
+    justify-content: center;
+    position: absolute;
+    right: 10px;
+    top: 2px;
+}
+
+.nav-bar ul li {
+    list-style: none;
+    margin: 22px;
+    height: 17px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.nav-bar ul li a {
+    text-decoration: none;
+    width: 69px;
+    height: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16.6667px;
+    line-height: 20px;
+    color: #5B5C68;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    letter-spacing: 2px;
+}
+
+.intro-heading {
+    display: flex;
+    width: 320px;
+    height: 55px;
+    position: relative;
+    top: 120px;
+    left: 100px;
+}
+
+.intro-heading p {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 20.8333px;
+    line-height: 26px;
+    color: #3D1541;
+    z-index: 9;
+}
+
+.into-heading-button {
+    width: 320px;
+    height: 50px;
+    position: relative;
+    top: 120px;
+    left: 100px;
+    z-index: 9;
+}
+#hire-me-anchorHeading{
+    position: relative;
+    left: 0;
+    display: flexbox;
+    width: 100%;
+    overflow: hidden; 
+    background-color: #000000;
+}
+.into-heading-button input{
+    width: 113px;
+    height: 34px;
+    background: #75406A;
+    border-radius: 0px 8px;
+    border-style: none;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 9px;
+    position: relative;
+    left: -10px;
+    cursor: pointer;
+}
+.into-heading-button input:nth-child(1):hover{
+    background: #67395e;
+}
+.into-heading-button a{
+    display: contents;
+}
+
+.into-heading-button:hover{
+    
+    box-shadow:10px solid #5B5C68;
+}
+
+.into-heading-button input:nth-child(2){
+    background: #739874;
+}
+#hire-me{
+    background: #739874;
+}
+#hire-me:hover{
+    background: #6c8e6d;
+}
+.into-heading-button input[value]{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    letter-spacing: 2px;
+}
+.into-heading-button input{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.man-img{
+    display: flex;
+    width: 15%;
+    position: relative;
+    top:78px;
+    left: 0;
+}
+.man-with-computer{
+    position: absolute;
+    top: 92px;
+    right: 90px;
+}
+.man-with-computer img{
+    position: relative;
+    top: 0;
+    height: 450px;
+}
+.dot-img{
+    position:absolute;
+    top: 80px;
+    right: 600px;
+}
+.dot-img img{
+    position: relative;
+    width: 400px;
+}
