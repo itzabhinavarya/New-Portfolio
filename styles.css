@@ -109,15 +109,17 @@
     left: 100px;
     z-index: 9;
 }
-#hire-me-anchorHeading{
+
+#hire-me-anchorHeading {
     position: relative;
     left: 0;
     display: flexbox;
     width: 100%;
-    overflow: hidden; 
+    overflow: hidden;
     background-color: #000000;
 }
-.into-heading-button input{
+
+.into-heading-button input {
     width: 113px;
     height: 34px;
     background: #75406A;
@@ -131,28 +133,37 @@
     left: -10px;
     cursor: pointer;
 }
-.into-heading-button input:nth-child(1):hover{
+
+.into-heading-button input:nth-child(1):hover {
     background: #67395e;
+    box-shadow: none;
+    transition: 0.5s;
 }
-.into-heading-button a{
+
+.into-heading-button a {
     display: contents;
 }
 
-.into-heading-button:hover{
-    
-    box-shadow:10px solid #5B5C68;
+.into-heading-button:hover {
+
+    box-shadow: 10px solid #5B5C68;
 }
 
-.into-heading-button input:nth-child(2){
+.into-heading-button input:nth-child(2) {
     background: #739874;
 }
-#hire-me{
+
+#hire-me {
     background: #739874;
 }
-#hire-me:hover{
+
+#hire-me:hover {
     background: #6c8e6d;
+    box-shadow: none;
+    transition: 0.5s;
 }
-.into-heading-button input[value]{
+
+.into-heading-button input[value] {
     font-family: 'Outfit';
     font-style: normal;
     font-weight: 500;
@@ -161,33 +172,178 @@
     color: #FFFFFF;
     letter-spacing: 2px;
 }
-.into-heading-button input{
+
+.into-heading-button input {
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
-.man-img{
+.man-img {
     display: flex;
     width: 15%;
     position: relative;
-    top:78px;
+    top: 78px;
     left: 0;
 }
-.man-with-computer{
+
+.man-with-computer {
     position: absolute;
     top: 92px;
     right: 90px;
 }
-.man-with-computer img{
+
+.man-with-computer img {
     position: relative;
     top: 0;
     height: 450px;
 }
-.dot-img{
-    position:absolute;
+
+.dot-img {
+    position: absolute;
     top: 80px;
     right: 600px;
 }
-.dot-img img{
+
+.dot-img img {
     position: relative;
     width: 400px;
+}
+
+/* ---------------------------second page ---------------- */
+
+.second-page {
+    width: 100%;
+    height: 260px;
+    position: relative;
+    z-index: 9;
+    top: 542px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    /* background: linear-gradient(60deg, #6BD1BC -100%, #ffffff 49%, #5FFBF1 400%); */
+    background: linear-gradient(60deg, #00ccff -100%, #ffffff 49%, #5FFBF1 400%);
+}
+
+.intro-text {
+    display: flex;
+    width: 875px;
+    height: 187px;
+    align-items: center;
+}
+
+.intro-text p {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.boy-lappy {
+    position: relative;
+    top: 78px;
+    left: -65px;
+}
+
+.rocket {
+    position: relative;
+    right: -30px;
+    top: -75px;
+}
+/* ----------------------Third Page------------ */
+.third-page {
+    position: relative;
+    width: 100%;
+    height: 277px;
+    top: 540px;
+    display: flex;
+    /* background: #A3F9DF; */
+    /* background-image: linear-gradient(to left top, #6bd1bc, #38cdd8, #1cc6f2, #58b9ff, #97a8ff, #9daaff, #a3adff, #a8afff, #7ac6ff, #47dbff, #33edff, #5ffbf1); */
+    /* background:linear-gradient(160deg,#6BD1BC 10%,#FDFDF1 49%,#5FFBF1 100%); */
+    background: linear-gradient(160deg, #6BD1BC -100%, #ffffff 49%, #5FFBF1 300%);
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+}
+
+.experience {
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+}
+
+.experience p {
+    display: flex;
+    margin: 100px 100px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+}
+
+.men-laptop {
+    position: relative;
+    top: 77px;
+    left: 0;
+}
+
+.boy-sitting {
+    position: relative;
+    top: 87.5px;
+    right: 0;
+}
+
+
+/* --------------------Footer ---------------- */
+
+.footer {
+    position: relative;
+    top: 540px;
+    width: 100%;
+    height: 300px;
+    background: linear-gradient(60deg, #6BD1BC -200%, #ffffff 49%, #5FFBF1 400%);
+    display: flex;
+    /* justify-content: center;
+    align-content: center; */
+}
+
+.footer img {
+    width: 300px;
+    height: 300px;
+}
+.left-footer-heading{
+    display: flex;
+}
+.left-footer-heading p{
+    font-family: 'PT Mono',monospace;
+    height: 70px;
+    position: relative;
+    top: 30px;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    margin: 20px;
+    overflow: hidden;
+}
+.footer-logo{
+    position: absolute;
+    display: flex;
+    top: 120px;
+    left: 20px;
+    width: 23.5%;
+}
+.footer-logo img{
+    position:relative;
+    left: 0;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    margin: 20px;
 }
