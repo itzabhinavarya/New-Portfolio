@@ -642,6 +642,46 @@
         display: none;
     }
 }
+@media screen and (max-width:432px){
+
+    .intro-heading {
+        left: 32px;
+        width: 250px;
+    }
+
+    .intro-heading p {
+        font-size: 1em;
+    }
+
+    .into-heading-button {
+        left: 32px;
+        width: 250px;
+    }
+
+    .into-heading-button input {
+        width: 100px;
+    }
+
+    .man-with-computer {
+        width: 370px;
+        height: 200px;
+        top: 250px;
+    }
+
+    .man-with-computer img {
+        right: -60px;
+        width: 330px;
+        /* height: 370px; */
+    }
+
+    .man-img {
+        display: none;
+    }
+
+    .dot-img img {
+        display: none;
+    }
+}
 
 @media screen and (min-width:430px) and (max-width:600px){
     .man-img{
