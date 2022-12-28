@@ -598,34 +598,42 @@
         height: 264px;
         margin-top: 187px;
     }
-    .second-page{
+
+    .second-page {
         top: 700px;
     }
-    #intro{
+
+    #intro {
         font-size: 0.6rem;
     }
-    .second-page .boy-lappy img{
+
+    .second-page .boy-lappy img {
         top: 14px;
     }
-    .third-page{
+
+    .third-page {
         position: relative;
         top: 700px;
     }
-    .men-laptop img{
+
+    .men-laptop img {
         display: none;
     }
-    .experience{
+
+    .experience {
         display: block;
         width: auto;
     }
-    #exp{
+
+    #exp {
         display: flex;
         margin: 50px 110px;
         position: relative;
         left: 0px;
         width: auto;
     }
-    .third-page .boy-sitting img{
+
+    .third-page .boy-sitting img {
         position: relative;
         left: 120px;
     }
@@ -672,41 +680,54 @@
     .dot-img img {
         display: none;
     }
-    .second-page{
+
+    .second-page {
         top: 700px;
     }
-    .second-page .intro-text p{
+
+    .second-page .intro-text p {
         font-size: 0.7rem;
     }
-    .second-page .boy-lappy img{
+
+    .second-page .boy-lappy img {
         top: 14px;
     }
-    .third-page{
+
+    .third-page {
         position: relative;
         top: 700px;
     }
-    .men-laptop img{
+
+    .men-laptop img {
         display: none;
     }
-    .experience{
+
+    .experience {
         display: block;
     }
-    .third-page .experience p{
+
+    .third-page .experience p {
         display: flex;
         position: relative;
-        left:60px;
+        left: 60px;
         margin: 70px 130px;
     }
-    .third-page .boy-sitting img{
+
+    .third-page .boy-sitting img {
         position: relative;
         left: 120px;
     }
 }
-@media screen and (max-width:432px){
+
+@media screen and (max-width:432px) {
 
     .intro-heading {
         left: 32px;
         width: 250px;
+    }
+
+    .main-page {
+        border-radius: 0;
     }
 
     .intro-heading p {
@@ -741,104 +762,126 @@
     .dot-img img {
         display: none;
     }
-    .second-page{
+
+    .second-page {
         top: 700px;
     }
-    .second-page .intro-text p{
+
+    .second-page .intro-text p {
         font-size: 0.7rem;
     }
-    .second-page .boy-lappy img{
+
+    .second-page .boy-lappy img {
         top: 14px;
     }
-    .third-page{
+
+    .third-page {
         position: relative;
         top: 700px;
     }
-    .third-page .men-laptop img{
+
+    .third-page .men-laptop img {
         position: relative;
         top: 34.5px;
     }
-    .experience{
+
+    .experience {
         display: block;
     }
-    .third-page .experience p{
+
+    .third-page .experience p {
         display: flex;
         position: relative;
-        left:60px;
+        left: 60px;
         margin: 70px 130px;
     }
-    .third-page .boy-sitting img{
+
+    .third-page .boy-sitting img {
         position: relative;
         left: 120px;
     }
 }
-@media screen and (min-width:433px) and (max-width:500px){
-    #exp{
+
+@media screen and (min-width:433px) and (max-width:500px) {
+    #exp {
         display: flex;
         margin: 50px 50px;
         position: relative;
         left: 0px;
         width: auto;
     }
-    .men-laptop{
+
+    .men-laptop {
         top: 74.5px;
     }
 }
-@media screen and (min-width:500px) and (max-width:600px){
-    #exp{
+
+@media screen and (min-width:500px) and (max-width:600px) {
+    #exp {
         display: flex;
         margin: 50px 50px;
         position: relative;
         left: 0px;
         width: auto;
     }
+
     .men-laptop {
         width: 100px;
     }
-    .third-page .men-laptop img{
+
+    .third-page .men-laptop img {
         top: 34.5px;
     }
 }
 
-@media screen and (min-width:433px) and (max-width:600px){
-    .man-img{
+@media screen and (min-width:433px) and (max-width:600px) {
+    .man-img {
         display: none;
     }
-    .main-page{
+
+    .main-page {
         border-radius: 0;
     }
-    .second-page{
+
+    .second-page {
         position: relative;
         top: 700px;
     }
-    .second-page .intro-text p{
+
+    .second-page .intro-text p {
         font-size: 0.7rem;
     }
-    .second-page .boy-lappy img{
+
+    .second-page .boy-lappy img {
         top: 14px;
     }
-    .third-page{
+
+    .third-page {
         position: relative;
         top: 700px;
     }
-    
+
 }
-@media screen and (min-width:600px) and (max-width:700px){
-    .second-page{
+
+@media screen and (min-width:600px) and (max-width:700px) {
+    .second-page {
         position: relative;
         top: 700px;
     }
-    .third-page{
+
+    .third-page {
         position: relative;
         top: 700px;
     }
+
     .men-laptop {
         width: 100px;
     }
-    .third-page .men-laptop img{
+
+    .third-page .men-laptop img {
         top: 34.5px;
     }
-    
+
 }
 
 @media screen and (max-width:700px) {
@@ -926,7 +969,8 @@
         width: 100px;
         top: 59px;
     }
-    .third-page{
+
+    .third-page {
         position: relative;
         top: 700px;
     }
