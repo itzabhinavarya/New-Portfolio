@@ -754,8 +754,9 @@
         position: relative;
         top: 700px;
     }
-    .men-laptop img{
-        display: none;
+    .third-page .men-laptop img{
+        position: relative;
+        top: 34.5px;
     }
     .experience{
         display: block;
@@ -924,5 +925,9 @@
     .boy-sitting img {
         width: 100px;
         top: 59px;
+    }
+    .third-page{
+        position: relative;
+        top: 700px;
     }
 }
