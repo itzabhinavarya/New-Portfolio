@@ -16,10 +16,6 @@
 
 .logo {
     display: flex;
-    /* position: absolute;
-    top: 20px;
-    left: 25px;
-    width: 70px; */
 }
 
 .logo img {
@@ -28,6 +24,20 @@
     height: 120px;
     left: 0;
     top: 0;
+    display: flex;
+    transition: 1.3s ease-in-out;
+}
+
+.logo img:nth-child(1):hover {
+    transform: translateY(-120px);
+}
+
+.logo img:nth-child(2) {
+    position: relative;
+    left: -25px;
+    top: 5px;
+    width: 90px;
+    height: 90px;
 }
 
 .logo p {
@@ -68,18 +78,25 @@
 
 .nav-bar ul li a {
     text-decoration: none;
-    width: 69px;
-    height: 20px;
+    /* width: 69px; */
+    /* height: 20px; */
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
     font-size: 16.6667px;
-    line-height: 20px;
+    /* line-height: 20px; */
     color: #5B5C68;
-    flex: none;
-    order: 2;
-    flex-grow: 0;
+    display: flex;
+    /* flex: none; */
+    /* order: 2; */
+    /* flex-grow: 0; */
     letter-spacing: 2px;
+    transition: 0.5s ease-in-out;
+}
+
+.nav-bar ul li a:hover {
+    transform: translateY(-4px);
+    color: #000000;
 }
 
 .intro-heading {
@@ -206,6 +223,12 @@
 .dot-img img {
     position: relative;
     width: 400px;
+    display: flex;
+    transition: 1s ease-in-out;
+}
+
+.dot-img img:hover {
+    transform: translateX(120px);
 }
 
 /* ---------------------------second page ---------------- */
@@ -221,8 +244,13 @@
     text-align: center;
     align-content: center;
     align-items: center;
+    /* border: 2px solid red; */
     /* background: linear-gradient(60deg, #6BD1BC -100%, #ffffff 49%, #5FFBF1 400%); */
     background: linear-gradient(60deg, #00ccff -100%, #ffffff 49%, #5FFBF1 400%);
+    /* box-shadow:
+    inset 60px 0 120px #bfdde4,
+    inset -60px 0 120px #5FFBF1; right cyan */
+
 }
 
 .intro-text {
@@ -237,20 +265,31 @@
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
-    line-height: 25px;
 }
 
 .boy-lappy {
     position: relative;
     top: 78px;
     left: -65px;
+    transition: 0.5s;
+}
+
+.boy-lappy:hover {
+    transform: translateY(-10px);
 }
 
 .rocket {
     position: relative;
     right: -30px;
     top: -75px;
+    display: flex;
+    transition: 0.5s;
 }
+
+.rocket:hover {
+    transform: translateY(-10px);
+}
+
 /* ----------------------Third Page------------ */
 .third-page {
     position: relative;
@@ -269,8 +308,9 @@
 }
 
 .experience {
+    position: absolute;
     display: flex;
-    width: 90%;
+    width: 100%;
     justify-content: center;
     text-align: center;
     align-content: center;
@@ -278,43 +318,62 @@
 }
 
 .experience p {
+    position: relative;
     display: flex;
     margin: 100px 100px;
     font-family: 'Outfit';
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
-    line-height: 25px;
+    /* line-height: 25px; */
     text-align: center;
 }
 
 .men-laptop {
-    position: relative;
-    top: 77px;
+    position: absolute;
+    top: 145px;
+    /* left: -120px; */
     left: 0;
+    z-index: 1;
+    display: flex;
+    transition: 0.5s ease-in-out;
+}
+
+.men-laptop:hover {
+    transform: translateX(30px);
 }
 
 .boy-sitting {
-    position: relative;
-    top: 87.5px;
-    right: 0;
+    position: absolute;
+    top: 136px;
+    right: 120px;
+    display: flex;
+    transition: 0.5s ease-in-out;
 }
 
+.boy-sitting img {
+    position: absolute;
+    left: -65px;
+}
+
+.boy-sitting:hover {
+    transform: translateX(-30px);
+}
 
 /* --------------------Footer ---------------- */
-
+/* 
 .footer {
     position: relative;
     top: 540px;
     width: 100%;
-    height: 300px;
-    background: linear-gradient(60deg, #6BD1BC -200%, #ffffff 49%, #5FFBF1 400%);
+    height: 120px;
+    
+    background:linear-gradient(50deg,#000000 50%,#FFFFD0 50%);
     display: flex;
-    /* justify-content: center;
-    align-content: center; */
-}
+} */
+/* background: linear-gradient(60deg, #6BD1BC -200%, #ffffff 49%, #5FFBF1 400%); */
 
-.footer img {
+/* .footer img {
     width: 300px;
     height: 300px;
 }
@@ -325,25 +384,348 @@
     font-family: 'PT Mono',monospace;
     height: 70px;
     position: relative;
-    top: 30px;
+    top: 0;
     font-size: 1.3rem;
     font-weight: bolder;
     letter-spacing: 1px;
     margin: 20px;
     overflow: hidden;
+    color: #FFFFFF;
 }
 .footer-logo{
     position: absolute;
     display: flex;
-    top: 120px;
+    top: 60px;
     left: 20px;
     width: 23.5%;
+    height: 40px;
 }
 .footer-logo img{
     position:relative;
+    top: -10px;
     left: 0;
-    width: 35px;
-    height: 35px;
+    width: 25px;
+    height: 25px;
     display: flex;
     margin: 20px;
+}
+.right-footer-heading{
+    position: absolute;
+    right: 170px;
+    text-decoration: none;
+}
+.right-footer-heading a{
+    text-decoration: none;
+    color: #000000;
+}
+.right-footer-heading p:nth-child(1){
+    margin-top: 12px;
+    font-size: 1.3rem;
+    font-family: 'PT Mono',monospace;
+    font-weight: bolder;
+}
+.copyright{
+    position: relative;
+    margin-top: 100px;
+    margin-left:100px;
+    height: 20px;
+}
+
+.copyright p{
+    color: #FFFFFF;
+    position: relative;
+} */
+
+/* body{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    min-height: 100vh;
+    background: #000000;
+    
+} */
+/* .footer{
+    position: relative;
+    top: 540px;
+    width: 100%;
+    background-color: #3586ff;
+    min-height: 100px;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+} */
+.footer {
+    position: relative;
+    top: 540px;
+    width: 100%;
+    background: linear-gradient(45deg, #d2001a, #7462ff, #f48e21, #23d5ab);
+    background: linear-gradient(45deg, #D6CCF2, #a4ece7, #FDFDEF, #9A74B8);
+    min-height: 100px;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    background-size: 300% 300%;
+    opacity: 0.7;
+    animation: color 12s ease-in-out infinite;
+}
+
+@keyframes color {
+    0% {
+        background-position: 0 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0 50%;
+    }
+}
+
+.social-icon {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+}
+
+.social-icon li {
+    list-style: none;
+}
+
+.social-icon li a {
+    font-size: 2em;
+    /* color: #fff; */
+    color: #000000;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+}
+
+.social-icon li a:hover {
+    transform: translateY(-8px);
+}
+
+.copyright {
+    position: absolute;
+    display: flex;
+    margin-top: 75px;
+}
+
+.copyright p {
+    /* color: #fff; */
+    color: #000000;
+    text-align: center;
+    font-size: 1em;
+    font-family: 'PT Mono';
+    transition: 0.5s;
+}
+
+/* .footer .wave{
+    position: absolute;
+    top: -50px;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background: url(img/wave.png);
+    background-size: 1000px 50px;
+}
+.footer .wave#wave1{
+    z-index: 1000;
+    opacity: 1;
+    bottom: 0;
+    animation: animateWave 4s linear infinite;
+}
+.footer .wave#wave2{
+    z-index: 999;
+    opacity: 0.5;
+    bottom: 10px;
+    animation: animateWave_02 4s linear infinite;
+}
+.footer .wave#wave3{
+    z-index: 1000;
+    opacity: 0.2;
+    bottom: 15px;
+    animation: animateWave 3s linear infinite;
+}
+.footer .wave#wave4{
+    z-index: 999;
+    opacity: 0.7;
+    bottom: 20px;
+    animation: animateWave_02 3s linear infinite;
+}
+@keyframes animateWave{
+    0%{
+        background-position-x: 1000px;
+    }
+    100%{
+        background-position-x: 0px;
+    }
+}
+@keyframes animateWave_02{
+    0%{
+        background-position-x: 0px;
+    }
+    100%{
+        background-position-x: 1000px;
+    }
+} */
+@media screen and (max-width:300px) {
+    .intro-heading {
+        left: 20px;
+        width: 200px;
+    }
+
+    .intro-heading p {
+        font-size: 0.5em;
+    }
+
+    .into-heading-button {
+        left: 20px;
+        width: 200px;
+    }
+
+    .into-heading-button input {
+        width: 90px;
+    }
+
+    #man-with-computer {
+        position: absolute;
+        width: 264px;
+        height: 264px;
+        margin-top: 187px;
+    }
+}
+
+@media screen and (max-width:430px) {
+    .main-page {
+        border-radius: 0;
+    }
+
+    .intro-heading {
+        width: 250px;
+    }
+
+    .intro-heading p {
+        font-size: 1em;
+    }
+
+    .into-heading-button {
+        width: 250px;
+    }
+
+    .into-heading-button input {
+        width: 100px;
+    }
+
+    .man-with-computer {
+        width: 370px;
+        height: 200px;
+        top: 250px;
+        /* left: -78px; */
+    }
+
+    .man-with-computer img {
+        right: -60px;
+        width: 330px;
+        /* height: 370px; */
+    }
+
+    .man-img {
+        display: none;
+    }
+
+    .dot-img img {
+        display: none;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .nav-bar ul {
+        display: none;
+    }
+
+    .dot-img img {
+        top: 30px;
+        left: 400px;
+        width: 300px;
+    }
+
+    .logo img:nth-child(1) {
+        display: none;
+    }
+
+    .logo img:nth-child(2) {
+        left: 30px;
+    }
+
+    .main-page {
+        height: 700px;
+    }
+
+    .man-img {
+        /* display: none; */
+        top: 265px;
+    }
+
+    .man-with-computer {
+        width: 370px;
+        height: 200px;
+        top: 250px;
+        /* left: -78px; */
+    }
+
+    .man-with-computer img {
+        width: 370px;
+        /* height: 370px; */
+    }
+
+    /* .second-page{
+        height: 300px;
+    } */
+    .boy-lappy {
+        left: 0;
+    }
+
+    .boy-lappy img {
+        position: relative;
+        top: 20px;
+        width: 100px;
+        height: 100px;
+    }
+
+    .rocket {
+        right: 0;
+    }
+
+    .rocket img {
+        position: relative;
+        width: 100px;
+    }
+
+    .intro-text p {
+        font-size: 0.7rem;
+    }
+
+    .men-laptop {
+        right: 0;
+    }
+
+    .men-laptop img {
+        position: relative;
+        top: 106px;
+        width: 100px;
+    }
+
+    .experience p {
+        font-size: 0.7rem;
+    }
+
+    .boy-sitting img {
+        width: 100px;
+        top: 59px;
+    }
 }
