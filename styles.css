@@ -598,6 +598,15 @@
         height: 264px;
         margin-top: 187px;
     }
+    .second-page{
+        top: 700px;
+    }
+    .second-page .intro-text p{
+        font-size: 0.5rem;
+    }
+    .second-page .boy-lappy img{
+        top: 14px;
+    }
 }
 
 @media screen and (max-width:430px) {
@@ -641,6 +650,15 @@
     .dot-img img {
         display: none;
     }
+    .second-page{
+        top: 700px;
+    }
+    .second-page .intro-text p{
+        font-size: 0.7rem;
+    }
+    .second-page .boy-lappy img{
+        top: 14px;
+    }
 }
 @media screen and (max-width:432px){
 
@@ -681,6 +699,15 @@
     .dot-img img {
         display: none;
     }
+    .second-page{
+        top: 700px;
+    }
+    .second-page .intro-text p{
+        font-size: 0.7rem;
+    }
+    .second-page .boy-lappy img{
+        top: 14px;
+    }
 }
 
 @media screen and (min-width:430px) and (max-width:600px){
@@ -689,6 +716,15 @@
     }
     .main-page{
         border-radius: 0;
+    }
+    .second-page{
+        top: 700px;
+    }
+    .second-page .intro-text p{
+        font-size: 0.7rem;
+    }
+    .second-page .boy-lappy img{
+        top: 14px;
     }
 }
 
