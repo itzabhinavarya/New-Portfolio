@@ -591,7 +591,9 @@
     .into-heading-button input {
         width: 90px;
     }
-
+    .main-page {
+        border-radius: 0;
+    }
     #man-with-computer {
         position: absolute;
         width: 264px;
@@ -706,6 +708,7 @@
         display: block;
     }
 
+
     .third-page .experience p {
         display: flex;
         position: relative;
@@ -814,6 +817,9 @@
     .men-laptop {
         top: 74.5px;
     }
+    .main-page {
+        border-radius: 0;
+    }
 }
 
 @media screen and (min-width:500px) and (max-width:600px) {
@@ -823,6 +829,9 @@
         position: relative;
         left: 0px;
         width: auto;
+    }
+    .main-page {
+        border-radius: 0;
     }
 
     .men-laptop {
