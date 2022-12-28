@@ -718,6 +718,7 @@
         border-radius: 0;
     }
     .second-page{
+        position: relative;
         top: 700px;
     }
     .second-page .intro-text p{
