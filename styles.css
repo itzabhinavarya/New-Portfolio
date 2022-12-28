@@ -728,6 +728,12 @@
         top: 14px;
     }
 }
+@media screen and (min-width:600px) and (max-width:700px){
+    .second-page{
+        position: relative;
+        top: 700px;
+    }
+}
 
 @media screen and (max-width:700px) {
     .nav-bar ul {
