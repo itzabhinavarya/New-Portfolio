@@ -268,20 +268,25 @@
 }
 
 .boy-lappy {
-    position: relative;
-    top: 78px;
-    left: -65px;
+    position: absolute;
+    top: 135px;
+    display: flex;
+    /* left: -65px; */
+    left: 0;
     transition: 0.5s;
 }
+
 
 .boy-lappy:hover {
     transform: translateY(-10px);
 }
 
 .rocket {
-    position: relative;
-    right: -30px;
-    top: -75px;
+    position: absolute;
+    display: flex;
+    /* right: -30px; */
+    right: 0;
+    top: 0;
     display: flex;
     transition: 0.5s;
 }
@@ -640,6 +645,133 @@
         left: 120px;
     }
 }
+@media screen and (min-width:350px) and (max-width:400px) {
+    #man-with-computer {
+        position: absolute;
+        width: 364px;
+        height: 364px;
+        margin-top: 85px;
+        position: relative;
+        left: 95px;
+    }
+    .experience {
+        display: block;
+        width: auto;
+    }
+
+    #exp {
+        display: flex;
+        margin: 50px 110px;
+        position: relative;
+        left: 0px;
+        width: auto;
+    }
+    .boy-lappy img{
+        display: flex;
+        margin-top: 20px;
+    }
+    .intro-text{
+        width: 50%;
+    }
+}
+@media screen and (min-width:700px) and (max-width:800px) {
+    .intro-heading {
+        /* left: 20px; */
+        width: 250px;
+    }
+
+    .intro-heading p {
+        font-size: 1em;
+    }
+
+    .into-heading-button {
+        /* left: 20px; */
+        width: 250px;
+    }
+
+    .into-heading-button input {
+        width: 85px;
+    }
+    #man-with-computer {
+        position: absolute;
+        width: 400px;
+        height: 400px;
+        margin-top: 50px;
+        position: relative;
+        left: 10px;
+    }
+    .experience {
+        display: flex;
+        width: auto;
+    }
+
+    #exp {
+        display: flex;
+        margin: 50px 50px;
+        position: relative;
+        left: 0px;
+        width: auto;
+    }
+    .intro-text{
+        width: 50%;
+    }
+    #intro {
+        font-size: 1rem;
+    }
+}
+@media screen and (min-width:800px) and (max-width:900px) {
+    .intro-heading {
+        /* left: 20px; */
+        width: 250px;
+    }
+
+    .intro-heading p {
+        font-size: 1em;
+    }
+
+    .into-heading-button {
+        /* left: 20px; */
+        width: 250px;
+    }
+
+    .into-heading-button input {
+        width: 85px;
+    }
+    #man-with-computer {
+        position: absolute;
+        width: 400px;
+        height: 400px;
+        margin-top: 50px;
+        position: relative;
+        left: 10px;
+    }
+    .experience {
+        display: flex;
+        width: auto;
+    }
+
+    #exp {
+        display: flex;
+        margin: 50px 50px;
+        position: relative;
+        left: 0px;
+        width: auto;
+    }
+    .intro-text{
+        width: 50%;
+    }
+    #intro {
+        font-size: 1rem;
+    }
+}
+@media screen and (min-width:900px) and (max-width:1000px) {
+    .intro-text{
+        width: 65%;
+    }
+    #intro {
+        font-size: 1rem;
+    }
+}
 
 @media screen and (max-width:430px) {
     .main-page {
@@ -820,6 +952,7 @@
     .main-page {
         border-radius: 0;
     }
+    
 }
 
 @media screen and (min-width:500px) and (max-width:600px) {
@@ -840,6 +973,13 @@
 
     .third-page .men-laptop img {
         top: 34.5px;
+    }
+    .boy-lappy img{
+        display: flex;
+        margin-top: 20px;
+    }
+    .intro-text{
+        width: 70%;
     }
 }
 
@@ -869,6 +1009,7 @@
         position: relative;
         top: 700px;
     }
+    
 
 }
 
